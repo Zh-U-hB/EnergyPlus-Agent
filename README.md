@@ -11,7 +11,7 @@ EnergyPlus Agent是一个基于Python和MCP（Model Context Protocol）协议的
 
 ### 智能转换
 - **Rhino代码解析**：自动解析Rhino建筑生成代码，提取几何和材料信息
-- **LLM驱动转换**：通过大语言模型理解建筑意图，生成标准化JSON配置
+- **LLM驱动转换**：通过大语言模型理解建筑意图，生成标准化YAML配置
 - **IDF自动生成**：将YAML配置映射为符合EnergyPlus标准的IDF文件
 
 ### 交互式配置
