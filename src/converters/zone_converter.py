@@ -8,6 +8,11 @@ class ZoneConverter(BaseConverter):
     def __init__(self, idf: IDF):
         super().__init__(idf)
 
+        self.state = {
+            "success" : 0,
+            "failed" : 0
+        }
+
     def convert(self) -> None:
         self.logger.info("Converting building data...")
         # 完成该部分的转换逻辑
